@@ -1,0 +1,8 @@
+{
+  "default": "deny",
+  "rules": [
+    {"id": "read-project-docs", "effect": "allow", "action": "document:read", "resource": "projects/*"},
+    {"id": "block-private", "effect": "deny", "action": "*", "resource": "projects/private/*"},
+    {"id": "allow-demo-calendar", "effect": "allow", "action": "calendar:create", "resource": "demo-calendar"}
+  ]
+}
