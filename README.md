@@ -17,3 +17,9 @@ no identity, consent token, expiry or cryptographic authentication.
 Main idea to explain: the model may request an action, but ordinary application
 code makes the final decision. Deny-by-default limits what happens when a model
 asks for an unknown tool or resource.
+
+## Documentation
+
+See [docs/SECURITY_MODEL.md](docs/SECURITY_MODEL.md) for the authorization flow,
+matching and precedence rules, threat scenarios, limitations, production
+hardening ideas and an interview walkthrough.
