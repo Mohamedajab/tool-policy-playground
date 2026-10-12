@@ -20,6 +20,9 @@ asks for an unknown tool or resource.
 
 ## Documentation
 
+Start with [Local usage and testing](docs/LOCAL_USAGE.md) for environment setup,
+the example's expected output, CLI exit codes and troubleshooting.
+
 See [docs/SECURITY_MODEL.md](docs/SECURITY_MODEL.md) for the authorization flow,
 matching and precedence rules, threat scenarios, limitations, production
 hardening ideas and an interview walkthrough.
